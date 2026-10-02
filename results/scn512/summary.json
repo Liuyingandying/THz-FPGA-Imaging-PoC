@@ -1,0 +1,119 @@
+{
+ "rows": [
+  {
+   "scene": "rect_hole",
+   "level_na": 100,
+   "pearson_r": 0.9993,
+   "nrmse": 0.0366,
+   "iou_target": 0.9375,
+   "defect_vs_bg_sigma": 85.09,
+   "defect_vs_tg_sigma": 24.69,
+   "contrast_snr_db": 35.64,
+   "thr_used": 179.25
+  },
+  {
+   "scene": "rect_hole",
+   "level_na": 300,
+   "pearson_r": 1.0,
+   "nrmse": 0.0132,
+   "iou_target": 1.0,
+   "defect_vs_bg_sigma": 87.89,
+   "defect_vs_tg_sigma": -224.76,
+   "contrast_snr_db": 49.9,
+   "thr_used": 419.0
+  },
+  {
+   "scene": "rect_hole",
+   "level_na": 500,
+   "pearson_r": 1.0,
+   "nrmse": 0.0069,
+   "iou_target": 1.0,
+   "defect_vs_bg_sigma": 83.93,
+   "defect_vs_tg_sigma": -460.98,
+   "contrast_snr_db": 54.73,
+   "thr_used": 659.0
+  },
+  {
+   "scene": "two_blocks",
+   "level_na": 100,
+   "pearson_r": 0.9987,
+   "nrmse": 0.0476,
+   "iou_target": 1.0,
+   "defect_vs_bg_sigma": NaN,
+   "defect_vs_tg_sigma": NaN,
+   "contrast_snr_db": 35.66,
+   "thr_used": 179.0
+  },
+  {
+   "scene": "two_blocks",
+   "level_na": 300,
+   "pearson_r": 0.9999,
+   "nrmse": 0.0098,
+   "iou_target": 1.0,
+   "defect_vs_bg_sigma": NaN,
+   "defect_vs_tg_sigma": NaN,
+   "contrast_snr_db": 50.28,
+   "thr_used": 419.5
+  },
+  {
+   "scene": "two_blocks",
+   "level_na": 500,
+   "pearson_r": 1.0,
+   "nrmse": 0.0072,
+   "iou_target": 1.0,
+   "defect_vs_bg_sigma": NaN,
+   "defect_vs_tg_sigma": NaN,
+   "contrast_snr_db": 54.73,
+   "thr_used": 659.5
+  },
+  {
+   "scene": "letter_T",
+   "level_na": 100,
+   "pearson_r": 0.999,
+   "nrmse": 0.0483,
+   "iou_target": 1.0,
+   "defect_vs_bg_sigma": NaN,
+   "defect_vs_tg_sigma": NaN,
+   "contrast_snr_db": 35.92,
+   "thr_used": 179.0
+  },
+  {
+   "scene": "letter_T",
+   "level_na": 300,
+   "pearson_r": 0.9999,
+   "nrmse": 0.0096,
+   "iou_target": 1.0,
+   "defect_vs_bg_sigma": NaN,
+   "defect_vs_tg_sigma": NaN,
+   "contrast_snr_db": 49.17,
+   "thr_used": 419.25
+  },
+  {
+   "scene": "letter_T",
+   "level_na": 500,
+   "pearson_r": 1.0,
+   "nrmse": 0.0062,
+   "iou_target": 1.0,
+   "defect_vs_bg_sigma": NaN,
+   "defect_vs_tg_sigma": NaN,
+   "contrast_snr_db": 54.64,
+   "thr_used": 659.5
+  }
+ ],
+ "rtl_bit_exact": "9/9",
+ "assumption": "16\u00d732 = \u4e24\u6392 8\u00d732 \u4e0a\u4e0b\u62fc\u63a5(\u5de5\u7a0b\u5efa\u6a21\u5047\u8bbe,\u975e\u6700\u7ec8\u786c\u4ef6\u7ed3\u8bba)",
+ "params": {
+  "bg_na": 50,
+  "defect_na": 120,
+  "levels_na": [
+   100,
+   300,
+   500
+  ],
+  "e_per_na": 60.0,
+  "lsb_per_e": 0.04,
+  "read_lsb": 3.0,
+  "frames": 4,
+  "seed": 20261693
+ }
+}

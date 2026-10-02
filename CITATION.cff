@@ -1,0 +1,15 @@
+cff-version: 1.6.0
+message: "If you use this software, please cite it as below."
+title: "THz FPGA Imaging PoC"
+type: software
+version: 1.0.0
+date-released: 2026-10-02
+license: Apache-2.0
+repository-code: "https://github.com/fuyong/THz-FPGA-Imaging-PoC"
+keywords:
+  - FPGA
+  - terahertz
+  - imaging
+  - Zynq
+  - digital-twin
+  - signal-processing

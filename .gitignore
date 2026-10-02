@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+
+# Vivado
+.Xil/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.jou
+*.str
+*.backup.*
+
+# Vitis / SDK
+Debug/
+Release/
+.metadata/
+workspace/
+
+# Build artifacts
+*.bit
+*.xsa
+*.elf
+*.vvp
+*.vcd
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Logs / captures
+*.log
+*.bin
+fpga_ax7020/logs/
+
+# Large data
+data/raw/*.csv
+results/images/
+results/rtl/*.txt

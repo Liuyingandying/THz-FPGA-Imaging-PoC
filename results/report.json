@@ -1,0 +1,50 @@
+{
+ "declaration": "ASSUMED PROTOTYPE MODEL | SYNTHETIC THz DATA — digital twin, not real-prototype measurements",
+ "assumed_params": {
+  "bg_na": 50.0,
+  "levels_na": {
+   "weak": 65.0,
+   "normal": 100.0,
+   "strong": 300.0
+  },
+  "defect_na": 80.0,
+  "avg_frames": 4,
+  "e_per_na": 60.0,
+  "lsb_per_e": 0.04,
+  "read_lsb": 3.0,
+  "seed": 20262940
+ },
+ "results": {
+  "metal_defect": {
+   "rtl_bit_exact": true,
+   "groups": 1,
+   "metrics_frame0": {
+    "pearson_r": 0.9994,
+    "nrmse": 0.0414,
+    "iou": 0.9195,
+    "cnr": 65.81,
+    "defect_detected": true
+   }
+  },
+  "tju": {
+   "rtl_bit_exact": true,
+   "groups": 1,
+   "metrics_frame0": {
+    "pearson_r": 0.9993,
+    "nrmse": 0.0426,
+    "iou": 1.0,
+    "cnr": 65.29
+   }
+  },
+  "moving_target": {
+   "rtl_bit_exact": true,
+   "groups": 4,
+   "metrics_frame0": {
+    "pearson_r": 0.5771,
+    "nrmse": 0.164,
+    "iou": 0.4828,
+    "cnr": 4.94
+   }
+  }
+ }
+}

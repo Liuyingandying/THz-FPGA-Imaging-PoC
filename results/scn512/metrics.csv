@@ -1,0 +1,10 @@
+scene,level_na,pearson_r,nrmse,iou_target,defect_vs_bg_sigma,defect_vs_tg_sigma,contrast_snr_db,thr_used
+rect_hole,100,0.9993,0.0366,0.9375,85.09,24.69,35.64,179.25
+rect_hole,300,1.0,0.0132,1.0,87.89,-224.76,49.9,419.0
+rect_hole,500,1.0,0.0069,1.0,83.93,-460.98,54.73,659.0
+two_blocks,100,0.9987,0.0476,1.0,nan,nan,35.66,179.0
+two_blocks,300,0.9999,0.0098,1.0,nan,nan,50.28,419.5
+two_blocks,500,1.0,0.0072,1.0,nan,nan,54.73,659.5
+letter_T,100,0.999,0.0483,1.0,nan,nan,35.92,179.0
+letter_T,300,0.9999,0.0096,1.0,nan,nan,49.17,419.25
+letter_T,500,1.0,0.0062,1.0,nan,nan,54.64,659.5

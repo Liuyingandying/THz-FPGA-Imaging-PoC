@@ -1,0 +1,7 @@
+dataset,N_photons,bit_exact,pearson_r,nrmse,localization,out_snr_db,in_snr_db
+14_random_photocurrent,300.0,True,0.9971,0.0281,PASS,8.33,24.16
+15_snr_N10,10.0,True,0.6141,0.4504,PASS,8.89,2.6
+16_snr_N30,30.0,True,0.884,0.2327,PASS,16.64,10.79
+17_snr_N100,100.0,True,0.9892,0.0796,PASS,28.56,18.39
+18_snr_N300,300.0,True,0.9992,0.022,PASS,39.75,24.16
+19_snr_N1000,1000.0,True,0.9998,0.0084,PASS,49.8,29.81
